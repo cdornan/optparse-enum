@@ -1,0 +1,28 @@
+name:                optparse-enum
+version:             1.0.0.0
+github:              "cdornan/optparse-enum"
+license:             BSD3
+author:              "Chris Dornan"
+maintainer:          "chris@chrisdornan.com"
+copyright:           "2019 Chris Dornan"
+synopsis:            "An enum-text based toolkit for optparse-applicative"
+category:            "System, CLI, Options, Parsing"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+description:         Please see the README on GitHub at <https://github.com/cdornan/optparse-enum#readme>
+
+dependencies:
+- base                  >= 4.8 && < 10
+- enum-text             >= 0.5.1.0
+- fmt                   >= 0.6
+- optparse-applicative  >= 0.12
+- text                  >= 1.2.2.2
+
+ghc-options:
+- -Wall
+
+library:
+  source-dirs: src

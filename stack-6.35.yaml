@@ -1,0 +1,12 @@
+# resolver: lts-13.29
+resolver: lts-6.35
+
+packages:
+- .
+
+extra-deps:
+- enum-text-0.5.1.0
+- fmt-0.6
+- formatting-6.3.4
+- possibly-1.0.0.0
+# - optparse-applicative-0.14.0.0
